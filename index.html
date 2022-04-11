@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet" href = "style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>Falling Petals Game</title>
+
+</head>
+
+<body>
+	<header> <h1 class="text-center">Falling Petals</h1></header>
+	<section>
+		<article class="text-center">
+					<h2>Play the Game</h2>
+		
+					<button type="button" onclick="changeDifficulty();">Change Level</button>   
+					
+					<button type="button" onclick="showGameword()">Give up and Show Word</button> 
+					
+				   <button type="button" onclick="reset()">Pick Another Word</button> 
+
+				   
+
+					<div id="addSpace"></div> <!--adding some extra space here-->
+
+			<p id="idShowGameword"></p>
+
+  
+			
+			<div class="container">
+				
+				<!-- Displays the current number of wrong guesses and the maximum number of wrong guesses-->
+				<div ><h4>Number of Wrong Guesses: </h4><h4><span id='mistakes'>0</span> of <span id='maxWrong'></span> </h4>
+				</div>
+				
+				  <div class="text-center">
+				   
+					
+					<img  width="600" height="250"  id='hangmanPic' src="FlowerLoss0.png" alt="">
+				
+				
+					<h4>Guess the Word:</h4>
+				
+					<h4 id="wordSpotlight"><!--The word spaces for the word to be guessed go here --></h4>
+				
+					<div id="keyboard" style= "font-size: xx-large;">
+					
+						<!-- The alphabet letter buttons are displayed here-->
+					
+					</div>
+				
+					<!--Click this button to reset the game-->
+					<button class="btn btn-info" onClick="reset()">Reset</button>
+				
+				 </div> 
+
+
+				 <div id="addSpace"></div> <!--adding some extra space here-->
+
+					
+		
+			</article>
+		</section>
+
+
+
+</div>
+<footer> </footer>	
+
+<script src='app.js'></script>
+
+</body>
+
+</html>
