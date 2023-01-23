@@ -5,7 +5,7 @@ Made a kid friendly version of the game Hangman called Falling Petals. My aim wa
 
 ![HangmanGameSnapShot](https://user-images.githubusercontent.com/88254705/214158895-698521c6-0407-45a3-82d7-8e59c1425dd4.png)
 
-Used multiple images and changed state based on the users input.
-![FlowerLoss7](https://user-images.githubusercontent.com/88254705/214159021-6d155ea8-3a17-4c51-873d-5a5d84e5d5c0.png) ->
-![FlowerLoss2](https://user-images.githubusercontent.com/88254705/214159044-ea03fb74-45dc-4f01-9c8d-7f7a1b13a4a5.png) ->
-![FlowerLoss0](https://user-images.githubusercontent.com/88254705/214159057-e614c7a7-d1d3-4f93-a5fd-b36956654d38.png)
+Initial Wireframe Design:
+
+![Flower Game Wireframe](https://user-images.githubusercontent.com/88254705/214162259-7a0a5b5c-2bf9-4d52-b53b-0828300dc765.PNG)
+![Flower Game Wireframe 2](https://user-images.githubusercontent.com/88254705/214162266-2ef48841-83e2-4cf3-9d38-9465e30db33c.PNG)
